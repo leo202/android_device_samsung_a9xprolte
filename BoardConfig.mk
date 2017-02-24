@@ -16,16 +16,16 @@
 # inherit from common msm8976-common
 -include device/samsung/msm8976-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/gts28vewifi
+DEVICE_PATH := device/samsung/a9xprolte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gts28vewifi
+TARGET_OTA_ASSERT_DEVICE := a9xprolte
 
 # Kernel
-TARGET_KERNEL_CONFIG := gts28vewifi_defconfig
+TARGET_KERNEL_CONFIG := a9xprolte_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/samsung/gts28vewifi/BoardConfigVendor.mk
+-include vendor/samsung/a9xprolte/BoardConfigVendor.mk

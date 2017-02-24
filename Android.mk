@@ -21,6 +21,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gts28vewifi)
+ifeq ($(TARGET_DEVICE),a9xprolte)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
