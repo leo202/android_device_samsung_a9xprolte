@@ -22,6 +22,7 @@ DEVICE_PATH := device/samsung/a9xprolte
 TARGET_OTA_ASSERT_DEVICE := a9xprolte
 
 # Kernel
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01E00000 --board RLRPA9XP000KU
 TARGET_KERNEL_CONFIG := a9xprolte_defconfig
 
 # Filesystem
