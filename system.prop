@@ -9,5 +9,5 @@ ro.qualcomm.bluetooth.nap=false
 ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
 
-# Radio
-ro.radio.noril=yes
+# Density
+ro.sf.lcd_density=480

@@ -7,12 +7,12 @@ PRODUCT_NAME := lineage_a9xprolte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_DEVICE := a9xprolte
-PRODUCT_MODEL := SM-T713
+PRODUCT_MODEL := SM-A910F
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=a9xproltexx \
-    BUILD_FINGERPRINT=samsung/a9xproltexx/a9xprolte:6.0.1/MMB29M/T813XXU2APK6:user/release-keys \
-    PRIVATE_BUILD_DESC="a9xproltexx-user 6.0.1 MMB29M T813XXU2APK6 release-keys"
+    PRODUCT_NAME=a9xproltesea \
+    BUILD_FINGERPRINT=samsung/a9xproltedx/a9xproltesea:6.0.1/MMB29M/A910FXXU1APL1:user/release-keys \
+    PRIVATE_BUILD_DESC="a9xproltedx-user 6.0.1 MMB29M A910FXXU1APL1 release-keys"
