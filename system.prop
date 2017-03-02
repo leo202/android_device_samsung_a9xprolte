@@ -10,4 +10,4 @@ ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
 
 # Density
-ro.sf.lcd_density=480
+ro.sf.lcd_density=420
