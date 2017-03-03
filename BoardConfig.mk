@@ -36,7 +36,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26363260928
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# RIL
-BOARD_PROVIDES_LIBRIL := true
 # inherit from the proprietary version
 -include vendor/samsung/a9xprolte/BoardConfigVendor.mk
