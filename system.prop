@@ -11,3 +11,7 @@ ro.qualcomm.bluetooth.pbap=true
 
 # Density
 ro.sf.lcd_density=420
+# Radio
+persist.radio.ignore_dom_time=5
+#force HAL1 for below packages
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk
